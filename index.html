@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#3f423b">
+  <meta name="description" content="UN 인구 전망을 바탕으로 전 세계의 탄생과 죽음을 점의 빛과 어둠으로 표현한 p5.js 시각화. 초 단위 추정치이며 실측 실시간 집계가 아닙니다.">
+  <title>Between Breaths</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23a7a6a0'/%3E%3Ccircle cx='21' cy='32' r='10' fill='%23fffef5'/%3E%3Ccircle cx='44' cy='32' r='10' fill='%23111110'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="vendor/p5.min.js" defer></script>
+  <script src="sketch.js" type="module"></script>
+</head>
+<body>
+  <main id="world" aria-label="전 세계 출생과 사망의 초 단위 추정 시각화. 밝아지는 점은 출생, 검게 변하는 점은 사망입니다. UN World Population Prospects 2024를 바탕으로 계산하며 실제 사건을 수신하지 않습니다.">
+    <div id="field" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="controls">
+      <button id="motion" type="button" aria-label="점의 확산 효과 끄기" aria-pressed="false">
+        <svg class="pause" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6v12M15 6v12"/></svg>
+        <svg class="play" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 9 6-9 6Z"/></svg>
+      </button>
+      <button id="fullscreen" type="button" aria-label="전체 화면">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5H5v4m10-4h4v4M5 15v4h4m10-4v4h-4"/></svg>
+      </button>
+    </div>
+    <div class="numbers" role="group" aria-label="접속 이후 누적 추정 인원. 작은 숫자는 초당 평균입니다.">
+      <div class="metric birth" role="group" aria-label="출생">
+        <div class="total"><span class="hanja" aria-hidden="true">生</span><output id="birth-total" aria-label="접속 후 출생 누적 추정 인원">0</output></div>
+        <div class="rate"><span id="birth-rate" aria-label="초당 평균 출생 추정 인원">0.00</span><span class="per" aria-hidden="true">/ 1″</span></div>
+      </div>
+      <div class="elapsed"><output id="elapsed" aria-label="새로고침 이후 경과 시간. 분, 초, 100분의 1초">00:00.00</output></div>
+      <div class="metric death" role="group" aria-label="사망">
+        <div class="total"><span class="hanja" aria-hidden="true">死</span><output id="death-total" aria-label="접속 후 사망 누적 추정 인원">0</output></div>
+        <div class="rate"><span id="death-rate" aria-label="초당 평균 사망 추정 인원">0.00</span><span class="per" aria-hidden="true">/ 1″</span></div>
+      </div>
+    </div>
+    <div class="pulse-track" aria-hidden="true"><span></span></div>
+  </main>
+</body>
+</html>

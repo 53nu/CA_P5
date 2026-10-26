@@ -1,0 +1,321 @@
+{
+  "title": "World Population Prospects 2024 — medium scenario",
+  "publisher": "United Nations, Department of Economic and Social Affairs, Population Division",
+  "distributor": "Our World in Data",
+  "retrieved": "2026-10-24",
+  "kind": "annual estimates and projections; not live civil-registration events",
+  "source": "https://population.un.org/wpp/",
+  "births": "https://ourworldindata.org/grapher/number-of-births-per-year",
+  "deaths": "https://ourworldindata.org/grapher/number-of-deaths-per-year",
+  "method": "Annual totals divided by the exact number of seconds in that UTC calendar year. A deterministic event is emitted whenever the integrated count crosses an integer. Large counters count estimated events since this page was opened. Smaller counters show the annual average per second. Each event is represented by one highlighted point. Point positions are abstract and do not describe individuals or geographic locations.",
+  "years": {
+    "2024": {
+      "births": 132405930,
+      "deaths": 62389496
+    },
+    "2025": {
+      "births": 132399176,
+      "deaths": 63135984
+    },
+    "2026": {
+      "births": 132503470,
+      "deaths": 63637310
+    },
+    "2027": {
+      "births": 132590970,
+      "deaths": 64625684
+    },
+    "2028": {
+      "births": 132761180,
+      "deaths": 65677932
+    },
+    "2029": {
+      "births": 132988660,
+      "deaths": 66739330
+    },
+    "2030": {
+      "births": 133256400,
+      "deaths": 67826880
+    },
+    "2031": {
+      "births": 133513400,
+      "deaths": 68954190
+    },
+    "2032": {
+      "births": 133764790,
+      "deaths": 70103040
+    },
+    "2033": {
+      "births": 134065210,
+      "deaths": 71288510
+    },
+    "2034": {
+      "births": 134381010,
+      "deaths": 72486090
+    },
+    "2035": {
+      "births": 134669250,
+      "deaths": 73713700
+    },
+    "2036": {
+      "births": 134945600,
+      "deaths": 74948340
+    },
+    "2037": {
+      "births": 135141000,
+      "deaths": 76206090
+    },
+    "2038": {
+      "births": 135355310,
+      "deaths": 77449624
+    },
+    "2039": {
+      "births": 135515310,
+      "deaths": 78710136
+    },
+    "2040": {
+      "births": 135669000,
+      "deaths": 79950500
+    },
+    "2041": {
+      "births": 135672670,
+      "deaths": 81208610
+    },
+    "2042": {
+      "births": 135635920,
+      "deaths": 82442510
+    },
+    "2043": {
+      "births": 135580930,
+      "deaths": 83672376
+    },
+    "2044": {
+      "births": 135406660,
+      "deaths": 84890470
+    },
+    "2045": {
+      "births": 135108930,
+      "deaths": 86093330
+    },
+    "2046": {
+      "births": 134763860,
+      "deaths": 87281950
+    },
+    "2047": {
+      "births": 134270880,
+      "deaths": 88448280
+    },
+    "2048": {
+      "births": 133752120,
+      "deaths": 89606970
+    },
+    "2049": {
+      "births": 133163336,
+      "deaths": 90746290
+    },
+    "2050": {
+      "births": 132555180,
+      "deaths": 91876620
+    },
+    "2051": {
+      "births": 131922870,
+      "deaths": 92985500
+    },
+    "2052": {
+      "births": 131280340,
+      "deaths": 94083770
+    },
+    "2053": {
+      "births": 130666630,
+      "deaths": 95173330
+    },
+    "2054": {
+      "births": 130019576,
+      "deaths": 96249260
+    },
+    "2055": {
+      "births": 129484560,
+      "deaths": 97293120
+    },
+    "2056": {
+      "births": 128994830,
+      "deaths": 98309320
+    },
+    "2057": {
+      "births": 128530510,
+      "deaths": 99309970
+    },
+    "2058": {
+      "births": 128109976,
+      "deaths": 100282940
+    },
+    "2059": {
+      "births": 127754770,
+      "deaths": 101241940
+    },
+    "2060": {
+      "births": 127431150,
+      "deaths": 102156930
+    },
+    "2061": {
+      "births": 127116970,
+      "deaths": 103025270
+    },
+    "2062": {
+      "births": 126876440,
+      "deaths": 103869600
+    },
+    "2063": {
+      "births": 126634990,
+      "deaths": 104677860
+    },
+    "2064": {
+      "births": 126429590,
+      "deaths": 105484570
+    },
+    "2065": {
+      "births": 126218350,
+      "deaths": 106272780
+    },
+    "2066": {
+      "births": 126019440,
+      "deaths": 107031790
+    },
+    "2067": {
+      "births": 125793030,
+      "deaths": 107798930
+    },
+    "2068": {
+      "births": 125546776,
+      "deaths": 108554380
+    },
+    "2069": {
+      "births": 125259600,
+      "deaths": 109292500
+    },
+    "2070": {
+      "births": 124986376,
+      "deaths": 110034870
+    },
+    "2071": {
+      "births": 124696340,
+      "deaths": 110769660
+    },
+    "2072": {
+      "births": 124348330,
+      "deaths": 111528940
+    },
+    "2073": {
+      "births": 123982000,
+      "deaths": 112257940
+    },
+    "2074": {
+      "births": 123572750,
+      "deaths": 112984184
+    },
+    "2075": {
+      "births": 123139810,
+      "deaths": 113706800
+    },
+    "2076": {
+      "births": 122692720,
+      "deaths": 114416770
+    },
+    "2077": {
+      "births": 122209340,
+      "deaths": 115099190
+    },
+    "2078": {
+      "births": 121660490,
+      "deaths": 115749020
+    },
+    "2079": {
+      "births": 121106664,
+      "deaths": 116356650
+    },
+    "2080": {
+      "births": 120554860,
+      "deaths": 116924260
+    },
+    "2081": {
+      "births": 119954950,
+      "deaths": 117418480
+    },
+    "2082": {
+      "births": 119411970,
+      "deaths": 117862430
+    },
+    "2083": {
+      "births": 118804110,
+      "deaths": 118269520
+    },
+    "2084": {
+      "births": 118220260,
+      "deaths": 118618880
+    },
+    "2085": {
+      "births": 117622290,
+      "deaths": 118940920
+    },
+    "2086": {
+      "births": 117028430,
+      "deaths": 119206460
+    },
+    "2087": {
+      "births": 116442240,
+      "deaths": 119458180
+    },
+    "2088": {
+      "births": 115886480,
+      "deaths": 119684140
+    },
+    "2089": {
+      "births": 115345020,
+      "deaths": 119919840
+    },
+    "2090": {
+      "births": 114804560,
+      "deaths": 120136080
+    },
+    "2091": {
+      "births": 114283304,
+      "deaths": 120358536
+    },
+    "2092": {
+      "births": 113772580,
+      "deaths": 120604024
+    },
+    "2093": {
+      "births": 113262380,
+      "deaths": 120878410
+    },
+    "2094": {
+      "births": 112772536,
+      "deaths": 121154320
+    },
+    "2095": {
+      "births": 112282190,
+      "deaths": 121464650
+    },
+    "2096": {
+      "births": 111830664,
+      "deaths": 121753740
+    },
+    "2097": {
+      "births": 111397100,
+      "deaths": 122077250
+    },
+    "2098": {
+      "births": 110941160,
+      "deaths": 122379910
+    },
+    "2099": {
+      "births": 110500810,
+      "deaths": 122663590
+    },
+    "2100": {
+      "births": 110028470,
+      "deaths": 122922340
+    }
+  }
+}
